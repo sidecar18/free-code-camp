@@ -1,2 +1,2 @@
 # free-code-camp
-Repository for Free Code Camp exercises and projects.
+This repository is for the Responsive Web Design exercises and projects from freeCodeCamp
