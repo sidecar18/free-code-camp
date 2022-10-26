@@ -9,11 +9,35 @@
 </head>
 <body>
     <h1 id="title">Greyhound Survey</h1>
-    <p id="description">Please fill out this brief survey regarding your experiences with Grehounds</p>
+    <p id="description">Please fill out this brief survey regarding your experiences with Greyhound dogs</p>
     <form id="survey-form">
-        <header></header>
-        <main></main>
-        <footer></footer>
+        <fieldset>
+            <label for="name-label">Please Enter Your Name (First Last): <input id="name" name="name" type="text" placeholder="First Name" required /></label>
+            <label for="email-label">Please Enter Your Email: <input id="email" name="email" type="email" placeholder="Last Name" required /></label>
+            <label for="number-label">How many Greyhounds have you seen before?: <input id="number" name="number" type="number" min="0" max="100" placeholder="Number" required /></label>
+        </fieldset>
+        <fieldset>
+            <select id="dropdown" name="dropdown">
+                <option value="">(select one)</option>
+                <option value="1">Owner</option>
+                <option value="2">Fan</option>
+                <option value="4">Other</option>
+              </select>
+        </fieldset>
+        <fieldset>
+            <label for="learn_yes"><input id="plearn_yes" type="radio" name="learn" class="inline" />I would like to learn more</label>
+            <label for="learn_no"><input id="learn_no" type="radio" name="learn" class="inline" /> I would not like to learn more</label>
+        </fieldset>
+        <fieldset>
+            <label for="humanoid" name="humanoid"><input id="humanoid" type="checkbox" required name="humanoid" class="inline" />I am a human</label>
+            <label for="not_humanoid" name="not_humanoid"><input id="not_humanoid" type="checkbox" required name="not_humanoid" class="inline" />I am a not a human</label>
+        </fieldset>
+        <fieldset>
+            <label for="hear">How did you hear about this form?:
+                <textarea id="hear" name="hear" rows="5" cols="30" placeholder="I was walking my dog and..."></textarea>
+            </label>
+        </fieldset>
+        <input type="submit" value="Submit" />
     </form>
 </body>
 </html>
