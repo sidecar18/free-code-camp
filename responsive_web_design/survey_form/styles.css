@@ -1,0 +1,52 @@
+html {
+    background-color: #000066;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    /* text-align: center; */
+}
+  
+fieldset {
+    background-color:  #9999ff;
+    margin: 50px;
+    border-radius: 10px;
+    /* display: flex;
+    flex: auto; */
+}
+
+#name, #email, #number, #dropdown {
+    background-color: black;
+    color: white;
+}
+
+h1, #description {
+    color: #9999ff;
+}
+
+h1 {
+    text-align:center;
+    font-size: 50px;
+}
+
+#description {
+    text-align: center;
+    font-size: x-large;
+    padding-bottom: 45px;
+}
+
+textarea {
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+  
+button {
+    color: blue;
+    height: 60px;
+    width: 100px;
+    font-size: 25px;
+    background-color: #9999ff;
+}
+
+  #number {
+    width: 65px;
+}

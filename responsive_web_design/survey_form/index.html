@@ -8,15 +8,15 @@
     <title>Greyhound Survey</title>
 </head>
 <body>
-    <h1 id="title">Greyhound Survey</h1>
-    <p id="description">Please fill out this brief survey regarding your experiences with Greyhound dogs</p>
+    <h1 id="title">Greyhound Survey Form</h1>
+    <p id="description">Please fill out this brief survey regarding your experience with Greyhound dogs</p>
     <form id="survey-form">
         <fieldset>
-            <label id="name-label" for="name-label">Please Enter Your Name (First Last): <input id="name" name="name" type="text" placeholder="First Name" required /></label>
+            <div><label id="name-label" for="name-label">Please Enter Your Name (First Last): <input id="name" name="name" type="text" placeholder="First Name" required /></label></div>
             <p></p>
-            <label id="email-label" for="email-label">Please Enter Your Email: <input id="email" name="email" type="email" placeholder="email@email.com" required /></label>
+            <div><label id="email-label" for="email-label">Please Enter Your Email: <input id="email" name="email" type="email" placeholder="email@email.com" required /></label></div>
             <p></p>
-            <label id="number-label" for="number-label">How many Greyhounds have you seen before?: <input id="number" name="number" type="number" min="0" max="100" placeholder="Number" required /></label>
+            <div><label id="number-label" for="number-label">How many Greyhounds have you seen before?: <input id="number" name="number" type="number" min="0" max="100" placeholder="Number" required /></label></div>
         </fieldset>
         <fieldset>
             <p>I am a Greyhound...</p>
@@ -36,8 +36,9 @@
             <label for="not_humanoid" name="not_humanoid"><input value="not_humanoid" id="not_humanoid" type="checkbox" required name="not_humanoid" class="inline" />I am a not a human</label>
         </fieldset>
         <fieldset>
-            <label for="hear">How did you hear about this form?:
-                <textarea id="hear" name="hear" rows="5" cols="30" placeholder="I was walking my dog and..."></textarea>
+            <label for="hear">How did you hear or learn about greyhounds?
+                <div></div>
+                <textarea id="hear" name="hear" rows="5" cols="100" placeholder="I was walking my dog and..."></textarea>
             </label>
         </fieldset>
         <button type="submit" value="Submit" id="submit">Submit</button>
